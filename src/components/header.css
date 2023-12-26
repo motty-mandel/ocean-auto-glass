@@ -1,0 +1,5 @@
+.navbar-scrolled {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value as needed for transparency */
+  }
+  
