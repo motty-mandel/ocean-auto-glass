@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './footer.css';
 
 export default function Footer() {
     return (
         <div>
-            <nav className="navbar fixed-bottom navbar-light">
-                <a className="navbar-brand" href="#">Fixed bottom</a>
-            </nav>
+            <h1>footer</h1>
         </div>
     );
 }
