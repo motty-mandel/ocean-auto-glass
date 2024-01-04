@@ -8,6 +8,8 @@
 }
 
 .one {
+    display: flex;
+    align-items: center;
     background-color: #000000;
     color: aliceblue;
     height: 600px;
@@ -15,4 +17,20 @@
     margin: 100px 10px;
     box-shadow: 5px 5px 15px #000;
     border-radius: 10px;
+}
+
+.one ul {
+    padding: 0;
+}
+
+.one li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: var(--main-color);
+    width: 100%;
+    border-radius: 0 10px 10px 0;
 }

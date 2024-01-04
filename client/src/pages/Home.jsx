@@ -6,8 +6,11 @@ export default function Home() {
         <div className="container">
             <div className="one">
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
+                    <li>Home</li>
+                    <li>Notifications</li>
+                    <li>Part Number Lookup</li>
+                    <li>Inventory</li>
+                    <li>Something Else</li>
                 </ul>
             </div>
         </div>
