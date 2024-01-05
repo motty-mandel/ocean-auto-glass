@@ -1,0 +1,19 @@
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: var(--main-color);
+    color: aliceblue;
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.tasks button {
+    font-size: x-large;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 80%;
+}

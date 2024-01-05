@@ -3,7 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
-import Home from './pages/Home';
+import Tasks from './pages/Tasks';
+import Notification from './pages/Notification';
+import PNL from './pages/PNL';
+import Inventory from './pages/Inventory';
 
 const router = createBrowserRouter([
     {
@@ -12,8 +15,24 @@ const router = createBrowserRouter([
         errorElement: <h1>404 Not Found</h1>,
         children: [
             {
-                index: true,
-                element: <Home />
+                path: '/tasks',
+                element: <Tasks />
+            },
+            {
+                path: '/notifications',
+                element: <Notification />
+            },
+            {
+                path: '/part-number-lookup',
+                element: <PNL />
+            },
+            {
+                path: '/inventory',
+                element: <Inventory />
+            },
+            {
+                path: '/something-else',
+                element: <h1>Something Else</h1>
             },
         ],
     },
