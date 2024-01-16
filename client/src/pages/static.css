@@ -1,3 +1,7 @@
+.main {
+    margin-bottom: 100px;
+}
+
 .static1 {
     display: flex;
     flex-direction: row;
@@ -17,13 +21,6 @@
     color: var(--main-color);
 }
 
-.image img {
-    height: 150px;
-    width: auto;
-    margin: 20px 0 0 0;
-    border: 2px solid rgba(255, 248, 235, 0.861);
-}
-
 .static2 {
     margin-top: 50px;
     display: flex;
@@ -32,8 +29,8 @@
     justify-content: space-around;
 }
 
-.motty img {
-    height: 200px;
+.reviews img {
+    height: 150px;
     width: auto;
     margin: 20px 0 0 0;
     border: 2px solid rgba(255, 248, 235, 0.861);
@@ -41,6 +38,28 @@
 
 .review1 img {
     height: 200px;
+    width: auto;
+    margin: 20px 0 0 0;
+    border: 2px solid rgba(255, 248, 235, 0.861);
+}
+
+.review-2 img {
+    height: 150px;
+    width: auto;
+    margin: 20px 0 0 0;
+    border: 2px solid rgba(255, 248, 235, 0.861);
+}
+
+.static3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.motty img {
+    height: 150px;
     width: auto;
     margin: 20px 0 0 0;
     border: 2px solid rgba(255, 248, 235, 0.861);
