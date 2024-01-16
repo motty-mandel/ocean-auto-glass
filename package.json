@@ -4,14 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "cd client && npm run build",
+    "build": "cd client && npm i && npm run build",
     "client": "cd client && npm run dev",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "mainBuild": "vite",
     "preview": "vite preview",
-    "render-build": "npm install && npm run build",
-    "seed": "cd server && npm run seed"
+    "render-build": "npm install && npm run build"
   },
   "dependencies": {
     "@apollo/client": "^3.8.8",
