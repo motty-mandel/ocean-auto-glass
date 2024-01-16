@@ -22,25 +22,7 @@
   padding-left: 20px;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
-}
-
-.buttons h5 {
+.header h5 {
   margin-right: 40px;
   color: var(--main-color);
-  cursor: pointer;
-}
-
-.buttons button {
-  margin-right: 40px;
-  font-size: x-large;
-  font-weight: 500;
-  border-radius: 10px;
-  line-height: 2;
-  background-color: var(--main-color);
-  color: white;
-  border: none;
 }
