@@ -11,7 +11,8 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build",
     "render-build":"npm install && npm run build",
-    "seed": "cd server && npm run seed"
+    "seed": "cd server && npm run seed",
+    "client": "cd client && npm run dev"
   },
   "dependencies": {
     "@apollo/client": "^3.8.8",

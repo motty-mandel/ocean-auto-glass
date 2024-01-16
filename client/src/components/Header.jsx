@@ -7,9 +7,9 @@ export default function Header() {
             <h1>Ocean Auto Glass</h1>
 
             <div className='buttons'>
-                <h3>Report Bugs</h3>
-                <button id='signUpBtn'>Sign Up</button>
-                <button id='loginBtn'>Login</button>
+                <h5>Call now at 732-677-8472</h5>
+                {/* <button id='signUpBtn'>Sign Up</button>
+                <button id='loginBtn'>Login</button> */}
             </div>
 
         </div>

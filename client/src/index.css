@@ -3,10 +3,3 @@ body {
     padding: 0;
     box-sizing: border-box; 
 }
-
-.body-contain {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    background-color: #ffffff;
-}
