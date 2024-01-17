@@ -7,7 +7,7 @@ export default function Static() {
 
             <div className="insurance">
                 <h2>Insurance</h2>
-                <p>We bill insurance for you.</p>
+                <p>We handle insurance claims.</p>
             </div>
 
             <div className="mobile">
