@@ -7,7 +7,7 @@
     height: 50px;
     position: fixed;
     bottom: 0;
-    background-color: rgba(255, 248, 235, 0.861);
+    background-color: var(--secondary-color);
 }
 
 .footer a {
@@ -17,6 +17,6 @@
 }
 
 .footer a:hover {
-    color: rgb(4, 255, 0);
+    color: rgb(3, 196, 0);
     text-decoration: underline;
 }

@@ -9,7 +9,7 @@ export default function Header() {
             <h1>Ocean Auto Glass</h1>
 
 
-                <h5>Call now at 732-677-8472</h5>
+                <a href="tel:732-677-8472">Call now at 732-677-8472</a>
                 {/* <button id='signUpBtn'>Sign Up</button>
                 <button id='loginBtn'>Login</button> */}
 

@@ -1,12 +1,8 @@
-:root {
-  --main-color: rgb(0, 164, 0);
-}
-
 .header {
   margin: 0 0 0 0;
   width: 100%;
   height: 100px;
-  background-color: rgba(255, 248, 235, 0.861);
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +18,10 @@
   padding-left: 20px;
 }
 
-.header h5 {
+.header a {
+  font-size: larger;
+  font-weight: 600;
   margin-right: 40px;
+  text-decoration: none;
   color: var(--main-color);
 }
