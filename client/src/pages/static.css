@@ -34,6 +34,7 @@
     .main {
         align-items: center;
         flex-direction: column;
+        margin-bottom: 100px;
     }
     .main div {
         width: 80%;
