@@ -42,4 +42,7 @@
         height: 300px;
         margin-top: 70px;
     }
+    .main div p {
+        font-size: 30px;
+    }
 }

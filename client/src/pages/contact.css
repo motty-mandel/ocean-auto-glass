@@ -37,6 +37,7 @@
 .formDiv p {
     color: var(--main-color);
     font-size: 20px;
+    margin: 0 20px;
     font-weight: bolder;
 }
 
@@ -45,4 +46,16 @@
     border: none;
     font-size: small;
     padding: 5px;
+}
+
+@media screen and (max-width: 1025px) {
+    .formDiv {
+        width: 80%;
+    }
+    .formDiv form input {
+        width: 100%;
+    }
+    .formDiv p {
+        font-size: 15px;
+    }
 }

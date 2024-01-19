@@ -5,9 +5,8 @@ export default function Contact() {
     return (
         <div className='contact'>
             <div className="formDiv">
-            <h2>Contact Us</h2>
             <p>Call us at <a href="tel:732-677-8472">732-677-8472</a></p>
-            <p>Or fill out the form below with the cars info and
+            <p>Or fill out the form below with the car's info and
                 <br /> 
                 we will get back to you as soon as possible.</p>
             <form>
