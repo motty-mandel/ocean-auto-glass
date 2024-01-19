@@ -7,12 +7,12 @@ export default function Static() {
 
             <div className="insurance">
                 <h2>Insurance</h2>
-                <p>We handle insurance claims.</p>
+                <p>We handle insurance claims directly.</p>
             </div>
 
             <div className="mobile">
                 <h2>Mobile</h2>
-                <p>We come to you or you come to us.</p>
+                <p>We come to your location, or you can come to our shop.</p>
             </div>
 
             <div className="recalibrate">
