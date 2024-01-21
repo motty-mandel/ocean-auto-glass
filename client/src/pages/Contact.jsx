@@ -12,6 +12,15 @@ export default function Contact() {
         document.getElementById('message').value = '';
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        setTimeout(() => {
+            form.submit();
+            eraseNames();
+        }, 2000);
+    }
+
     return (
         <div className='contact'>
             <div className="formDiv">
@@ -19,7 +28,7 @@ export default function Contact() {
             <p>Or fill out the form below with the car's info and
                 <br /> 
                 we will get back to you as soon as possible.</p>
-            <form action="https://getform.io/f/4cbf3c77-b4f1-4502-ac06-d26cafe10df8" method="POST">
+            <form action="https://getform.io/f/4cbf3c77-b4f1-4502-ac06-d26cafe10df8" method="POST" onSubmit={handleSubmit}>
                 <input id="name" type="text" name="Name" placeholder="Name"/>
                 <input id="number" type="text" name="Number" placeholder="Number"/>
                 <input id="year" type="text" name="Year" placeholder="Year"/>
