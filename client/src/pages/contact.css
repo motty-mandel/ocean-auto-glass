@@ -2,59 +2,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    justify-content: center;
+    height: calc(100vh - 150px);
 }
 
 .formDiv {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    width: 50%;
+    height: 90%;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    height: 100%;
-    margin-top: 15px;
-    padding: 30px 0 50px 0;
-    background-color: var(--secondary-color);
-    border-radius: 25px;
-}
-
-.formDiv form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.formDiv h2 {
-    color: var(--main-color);
-    font-size: 40px;
-    font-weight: bolder;
 }
 
 .formDiv p {
     color: var(--main-color);
-    font-size: 20px;
-    margin: 0 20px;
     font-weight: bolder;
+    margin-bottom: 20px;
 }
 
-.formDiv input {
+.formDiv form {
+    background-color: rgb(242, 255, 235);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+    height: 70%;
+}
+
+.formDiv form input {
     margin: 10px 0;
-    border: none;
-    font-size: small;
-    padding: 5px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.formDiv form button {
+    height: 30px;
+    margin-right: 125px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 1025px) {
+    .contact {
+        margin-bottom: 50px;
+    }
     .formDiv {
+        width: 80%;
+        padding: 10px;
+    }
+    .formDiv form {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 70%;
         width: 80%;
     }
     .formDiv form input {
-        width: 100%;
+        margin: 0;
+        height: 30px;
     }
-    .formDiv p {
-        font-size: 15px;
+    .formDiv form button {
+        margin-right: 0;
     }
-    .formDiv form input {
-        width: 40%;
-    }
+    
 }
