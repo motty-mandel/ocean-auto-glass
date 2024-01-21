@@ -17,14 +17,10 @@
     border-radius: 25px;
 }
 
-.formDiv form input {
-    width: 45%; /* Adjust as needed */
-}
-
 .formDiv form {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -57,5 +53,8 @@
     }
     .formDiv p {
         font-size: 15px;
+    }
+    .formDiv form input {
+        width: 40%;
     }
 }
